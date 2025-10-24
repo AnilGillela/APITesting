@@ -32,7 +32,7 @@ Entire process -
 4. Running the Test
 5. Report Generation
    
-Scenario 2: Confirmation of Countries
+## Scenario 2: Confirmation of Countries
 
 Since below endpoint is not working due to updated with fields - https://restcountries.com/v3.1/all/ 
 Updated one is https://restcountries.com//v3.1/all/?fields=country - when I hit this endpoint the total countires are returned 250 and not 195
@@ -48,7 +48,8 @@ Counts how many items (countries) are present
 Asserts that the count equals 195
 Prints the result in the test report (and console)
 
-Scenario - 3 # Validate Languages
+## Scenario 3: Validate Languages
+
 When I hit this below endpoint,  SASL is not picked up only 11 languages are retuned - 
 https://restcountries.com//v3.1/name/South Africa
 Official Languages of South Africa:
