@@ -24,24 +24,11 @@ JSON Schema Validator (for schema validation)
 Allure Report or Extent Report (for test reporting)
 
 Example of project structure would be
-restcountries-backend-automation/
-│
-├── src/
-│   ├── main/
-│   └── test/
-│       ├── java/
-│       │   └── tests/
-│       │       └── SchemaValidationTest.java
-│       └── resources/
-│           └── schemas/
-│               └── countries-schema.json
-│
-├── pom.xml
-└── README.md
+
 Entire process - 
 1. pom.xml (Dependencies)
 2. Test Class Example (SchemaValidationTest.java)
 3. JSON Schema Example (countries-schema.json)
 4. Running the Test
 5. Report Generation
-Scenario 2: Confirmation of Countries
+Scenario 2: Confirmation of Countriesjjjjjj
