@@ -31,4 +31,37 @@ Entire process -
 3. JSON Schema Example (countries-schema.json)
 4. Running the Test
 5. Report Generation
-Scenario 2: Confirmation of Countriesjjjjjj
+   
+Scenario 2: Confirmation of Countries
+
+Since below endpoint is not working due to updated with fields - https://restcountries.com/v3.1/all/ 
+Updated one is https://restcountries.com//v3.1/all/?fields=country - when I hit this endpoint the total countires are returned 250 and not 195
+Objective:
+Validate that https://restcountries.com/v3.1/all/ returns exactly 195 country objects in its JSON array response.
+
+Total countries returned by API: 250
+
+Process -
+Sends a GET request to https://restcountries.com//v3.1/all/?fields=country
+Extracts the response body as a JSON array
+Counts how many items (countries) are present
+Asserts that the count equals 195
+Prints the result in the test report (and console)
+
+Scenario - 3 # Validate Languages
+When I hit this below endpoint,  SASL is not picked up only 11 languages are retuned - 
+https://restcountries.com//v3.1/name/South Africa
+Official Languages of South Africa:
+ - Afrikaans
+ - English
+ - Southern Ndebele
+ - Northern Sotho
+ - Southern Sotho
+ - Swazi
+ - Tswana
+ - Tsonga
+ - Venda
+ - Xhosa
+ - Zulu
+
+
